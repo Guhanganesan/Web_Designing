@@ -1,0 +1,7 @@
+body{background-color:pink;}
+	p{
+		font-size:22px;
+		border:10px solid red;
+		color:white;
+		background-color:green;
+	}
