@@ -1,0 +1,29 @@
+.sample1-container{
+    background-color: black;
+    color: papayawhip;
+    width: 200px;
+    height: 300px;
+    border-radius: 6px;
+}
+.sample1-container-header{
+    height: 100px;
+    text-align: justify;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.sample1-container-body{
+    height: 167px;
+}
+.sample1-container-footer{
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+    border-radius:6px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    height:33px;
+}

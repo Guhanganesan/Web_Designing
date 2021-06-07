@@ -1,0 +1,67 @@
+<html> 
+<head>
+<title>Mywebsite</title>
+<style>
+         table{border:5px solid red;
+		       background-color:#61F852;
+			   width:600px;
+			   height:600px;
+			   padding:5px;
+			   outline:5px solid #0E038B;
+			   outline-offset:3px;
+			   background-color:#FDF971;
+			  }
+		 th,td{border:1px solid blue;font-size:20px;color:blue;font-weight:bold;
+               text-align:center;}
+		 input,select,button{width:350px;height:40px;margin-left:10px;}
+		 input[type="radio"],input[type="checkbox"]{width:20px;height:20px;}
+</style>
+</head>
+<body>
+        <form>
+       <table align="center">
+	   <colgroup>
+	           <col style="width:200px;">
+	           <col style="text-align:center;">
+	   </colgroup>
+	   <tr> <td colspan="2" style="text-align:center;">Application Form</td></tr>
+	   <tr> <td>Name   </td> <td> <input type="text"></td> </tr>
+	   <tr> <td>Mobile </td> <td> <input type="number" required></td> </tr>
+	   <tr> <td>Email  </td> <td> <input type="email"></td> </tr>
+	   <tr> <td>Password  </td> <td> <input type="password"></td> </tr>
+	   <tr> <td>DOB    </td> <td> <input type="date"></td> </tr>
+	   <tr> <td>Gender </td> <td> Male:<input type="radio" name="x">Female:<input name="x"type="radio"></td> </tr>
+	   <tr> <td>Language</td><td> Tamil<input type="checkbox">English<input type="checkbox">Malayalam<input type="checkbox"></td> </tr>
+	   <tr> <td>Course </td> <td> <select>
+	                                 <option>PHP </option>
+	                                 <option>HTML </option>
+	                                 <option>CSS </option>
+	                                 <option>JAVASCRIPT </option>
+	                                 <option>JQUERY </option>
+	                                 <option>MYSQL </option>
+	                                 <option>PYTHON </option>
+	                                 <option>ANGULAR </option>
+	   
+	                           </select></td> </tr>
+	   <tr> <td>District</td><td> <input list="dist">
+	                             <datalist id="dist">
+								        
+								     <option>Chennai </option>
+	                                 <option>Covai </option>
+	                                 <option>Madurai </option>
+	                                 <option>Nellai </option>
+	                                 <option>Mugavai </option>
+	                                 <option>Pudhuvai</option>
+	                                 <option>Salem </option>
+	                                 <option>Namakkal </option>
+								 
+								 </datalist>
+	   
+	                         </input>
+							</td> </tr>
+	   <tr> <td colspan="2" style="text-align:center;"> <button>submit </button> </td> </tr>
+	  </table>
+	  
+	  </form>
+</body>
+</html> 
