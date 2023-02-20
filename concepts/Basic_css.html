@@ -39,6 +39,22 @@ img{
 body{
     background-image:url("images/bg.jpg");
 }
+
+/* Variable */
+:root {
+  --blue: #1e90ff;
+}
+h2{
+   color: var(--blue);
+}
+
+/* Overring Variable*/
+h3{
+   --blue:#ff00a1;
+   color: var(--blue);
+}
+
+
 </style>
 
 <body>
@@ -51,5 +67,21 @@ body{
    Cup appearances for India.[7] He had previously been named "Player of the Tournament" at the 
    2003 edition of the tournament, held in South Africa.
    </p>
+
+   <h2> Variable</h2>
+
+   <h3> Overring Variable</h3>
+
+   <script>
+      // Change variable with JavaScript
+      
+      // Get the root element
+      var r = document.querySelector(':root');
+      // Get the styles (properties and values) for the root
+      var rs = getComputedStyle(r);
+      // Set the value of variable --blue to another value
+      r.style.setProperty('--blue', 'green');
+   </script>
+
 </body>
 </html>
